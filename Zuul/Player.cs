@@ -163,6 +163,7 @@ namespace Zuul
                 if (itemString == "key")
                 {
                     item.use(currentRoom.getExit("east"));
+
                     /*
                     if (currentRoom.getExit("north").hasLock) { item.use(currentRoom.getExit("north")); }
                     else if (currentRoom.getExit("east").hasLock) { item.use(currentRoom.getExit("east")); }
